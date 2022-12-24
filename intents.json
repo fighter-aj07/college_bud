@@ -1,0 +1,390 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "kaisan ba",
+        "Namaste"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Thik ba"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+         "See you later", 
+         "Goodbye",
+         "Get Lost"
+        ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "see you soon",
+        "i hope we will meet again soon"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful","Awesome, thanks", "Thank's a lot!","thanks for helping"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "mention not","i am grateful to help you"]
+    },
+    {
+      "tag": "noanswer",
+          "patterns": [],
+          "responses": [
+              "Sorry, can't understand you",
+              "Please give me more info",
+              "Not sure I understand"
+          ]
+    },
+    {
+      "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "what are you"
+          ],
+          "responses": [
+              "I am Collegebud, a helpful friend"
+          ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+          "What is the time",
+          "what is the date",
+          "date",
+          "time",
+          "tell me the date","day","what day is is today"
+      ],
+      "responses": [
+          "Date and Time"
+      ]
+  },
+  {
+    "tag": "whatsup",
+    "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup","How you doing"
+    ],
+    "responses": [
+        "All good..What about you?"
+    ]
+},
+    
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh !"
+      ]
+  },
+  {
+    "tag": "programmer",
+    "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+    ],
+    "responses": [
+        "I was made by Ajay Babu Patel, Kanhaiya Kumar, Mohammed Aasim and Tanmay Umredkar."
+    ]
+},
+{
+  "tag": "activity",
+  "patterns": [
+      "what are you doing",
+      "what are you upto"
+  ],
+  "responses": [
+      "Talking to you, of course!"
+  ]
+},
+{
+"tag": "nicetty",
+"patterns": [
+    "it was nice talking to you",
+    "good talk"
+],
+"responses": [
+    "It was nice talking to you as well! Come back soon!"
+]
+},
+{
+"tag": "greetreply",
+"patterns": [
+    "i am good",
+    "I'm good",
+    "i am fine",
+    " i'm fine","good"
+],
+"responses": [
+    "Good to know!"
+]
+},
+        
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+
+
+    {
+      "tag": "jokes",
+      "patterns": [
+        "joke",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh"
+      ],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+    ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "They sell coffee,tea,Snacks,Cold Drinks and IceCream",
+        "They have coffee,tea,Snacks,Cold Drinks and IceCream"
+      ]
+    },
+    {
+      "tag": "office",
+      "patterns":[
+        "Name of the office in your college",
+        "What are the offices in your college"
+      ],
+      "responses":[
+        "Dean's Office,Director's Office,Academics Office,Registrar's Office"
+      ]
+    },
+    
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses college offers?",
+        "What courses are available?",
+        "What subjects college teach?",
+        "can you tell which subjects college provides"
+      ],
+
+      "responses": [
+        "We teach cse majors and ece majors",
+        "We have cse and ece course listed here",
+        "our college provides cse and ece"
+      ]
+    },
+
+    {
+      "tag": "students",
+      "patterns": [
+        "how many students study in college?",
+        "number of students went to college?",
+        "counting of students who registerd in college?"
+      ],
+
+      "responses": [
+        "2000",
+        "there are 2000 students study in college",
+        "our college provides cse and ece"
+      ]
+    },
+
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are timings of college?",
+        "What is time when college starts and ends?",
+        "What is time range when can i be in collage?"
+      ],
+
+      "responses": [
+        "college timings are 0900 to 1700 hrs",
+        "college is opened from 0900 to 1700hrs",
+        "time range of college opening is between 0900 to 1700hrs"
+      ]
+    },
+
+    {
+      "tag": "cse",
+      "patterns": [
+        "How many professors are in cse major?",
+        "professors count in cse major?",
+        "number of professors taking cse major?"
+      ],
+
+      "responses": [
+        "approx 50 professors are there",
+        "approx 50 professors taking cse major",
+        "cse major is teaching by approx 50 professors"
+      ]
+    },
+
+    {
+      "tag": "ece",
+      "patterns": [
+        "How many professors are in ece major?",
+        "professors count in ece major?",
+        "number of professors taking ece major?"
+      ],
+
+      "responses": [
+          "approx 30 professors are there",
+          "approx 30 professors taking ece major",
+          "ese major is teaching by approx 30 professors"
+      ]
+    },
+    {
+      "tag": "classroom",
+      "patterns": [
+        "How many classrooms are there",
+        "How many classrooms are available"
+      ],
+      "responses": [
+        "there are 25 classrooms including ac rooms, dedicated labs for CSE and ECE, and lecture halls",
+        "there are 25 classrooms in the academic block"
+        
+      ]
+    },
+    {
+      "tag":"fees",
+      "patterns":[
+        "what is the fees for per semester",
+        "fees per semester"
+      ],
+      "responses":[
+        "fees per semester is 1,35,000 rupees",
+        "1,35,000 rupees"
+      ]
+
+    },
+    {
+      "tag":"facility",
+      "patterns":[
+        "what are the facility in the college",
+        "facility provided in the college",
+        "Does college provide any facility"
+      ],
+      "responses":[
+        "college provides us many facility like we have gym,football court,basketball court,cricket ground etc."
+      ]
+    },
+
+
+    {
+      "tag": "block",
+      "patterns":[
+        "how many hostel block are there",
+        "how many hostels are there"
+      ],
+      "responses":[
+        "there are 2 in-campus blocks and 3 blocks out of the campus ",
+        "we have BH1,BH2,MMB,B3"
+      ]  
+    },
+    {
+      "tag":"mess",
+      "patterns":[
+        "what are the mess timing",
+        "mess timing"
+      ],
+      "responses":[
+        "for breakfast(7:30am to 9:30am),lunch(12:30pm to 2:00pm),snacks(5:00pm to 6:00pm),dinner(7:30pm to 9:00pm) "
+      ]
+    },
+    {
+      "tag":"provide",
+      "patterns":[
+        "what type of food mess provide",
+        "what cuisine mess provide"
+      ],
+      "responses":[
+        "mess provides us north indian and south indian food"
+      ]
+    },
+    {
+      "tag":"hostel-fees",
+      "patterns":[
+        "what is the hostel fees per semester",
+        "hostel fees per semester",
+        "hostel fees", 
+        "what is the hostel fees"
+      ],
+      "responses":[
+        "hostel fees is 20,000 per semester",
+        "20,000 per semester"
+      ]
+    },
+    {
+      "tag":"mess-fees",
+      "patterns":[
+        "what is the mess fees per semester",
+        "mess fees per semester"
+      ],
+      "responses":[
+        "mess fees is 20,000 per semester",
+        "20,000 per semester"
+      ]
+    }                                                     
+
+  ]
+}
